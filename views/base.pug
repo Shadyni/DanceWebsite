@@ -1,0 +1,22 @@
+//- layout.pug
+doctype html 
+html
+  head
+    title Fatema Dance Academy
+    block scripts
+    block style
+      script
+  body
+    nav#navbar.top.firstClass.secondClass
+      ul 
+        div#logo
+            img(src="/static/logo.png")
+            | FDA
+        li #[a(href="/") Home ]
+        li #[a(href="/") Services ]
+        li #[a(href="/") About ]
+        li #[a(href="/") Class Information ]
+        li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer 
+      |Copyright © 2019 FatemaDanceAcademy.com | All Rights  Reserved  
